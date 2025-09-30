@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Atividade Programação Web</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dataNasc">Data de nascimento:</label>
+                    <input type="date" name="dataNasc" id="dataNasc" required>
+                </div>
+
+                <div class="form-group">
+                    <h3>Gênero</h3>
+                    <label>
+                    <input type="radio" name="genero" value="masculino"> Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="genero" value="feminino"> Feminino
+                    </label>
+                    <label>
+                        <input type="radio" name="genero" value="prefiroNaoDizer">Prefiro não dizer
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" rows="5" maxlength="200" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipoInscricao">Tipo da inscrição:</label>
+                    <select name="tipoInscricao" id="tipoInscricao" required>
+                        <option value="palestrante">Palestrante</option>
+                        <option value="participante">Participante</option>
+                        <option value="voluntario">Voluntário</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Enviar" id="submit">
+                    <input type="reset" value="Apagar tudo" id="reset">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
