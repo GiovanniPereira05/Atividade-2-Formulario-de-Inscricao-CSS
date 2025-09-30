@@ -1,9 +1,13 @@
-body, input, select{
+body, input, select, h3{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  font-size: 1rem;
 }
 
+h3{
+    font-weight: normal;
+}
 
 main{
     display: flex;
